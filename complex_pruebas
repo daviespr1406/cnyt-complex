@@ -1,0 +1,22 @@
+import complex
+
+def main():
+    print (complex.prettyPrintingC(complex.suma((3,1),(-2,3))))
+    print (complex.prettyPrintingC(complex.suma((4,6),(-1,2))))
+    print (complex.prettyPrintingC(complex.resta((3,1),(-2,3))))
+    print (complex.prettyPrintingC(complex.resta((4,6),(-1,2))))
+    print (complex.prettyPrintingC(complex.multiplicacion((3,1),(-2,3))))
+    print (complex.prettyPrintingC(complex.multiplicacion((4,6),(-1,2))))
+    print (complex.prettyPrintingC(complex.division((3,1),(-2,3))))
+    print (complex.prettyPrintingC(complex.division((4,6),(-1,2))))
+    print (complex.modulo((3,1)))
+    print (complex.modulo((4,6)))
+    print (complex.fase((3,1)))
+    print (complex.fase((4,6)))
+    print (complex.conjugado((3,1)))
+    print (complex.conjugado((4,6)))
+    print (complex.prettyPrintingC(complex.cartPolar((-2,3))))
+    print (complex.prettyPrintingC(complex.cartPolar((-1,2))))
+    print (complex.prettyPrintingC(complex.polarCart((3.605551275463989,2.158798930342464))))
+    print (complex.prettyPrintingC(complex.polarCart((2.23606797749979,2.0344439357957027))))
+main()
